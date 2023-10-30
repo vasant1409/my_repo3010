@@ -34,5 +34,5 @@ GROUP BY
     t2.table2_industry_code_ANZSIC06,
     t2.table2_serial_number,
     t2.table2_serial_number_1
-    
+    )
 select * from inter_survey
