@@ -18,7 +18,6 @@ GROUP BY
     t1.table1_year,
     t1.table1_industry_code,
     t1.table1_industry_name,
-    t1.table1_rme_size_grp,
     t1.table1_variable,
     t1.table1_value,
     t1.table1_unit,
