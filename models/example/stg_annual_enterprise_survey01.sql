@@ -6,7 +6,7 @@ x3 AS (
 SELECT 
     id as table1_id,
     year as table1_year,
-    industry_code_ANZSIC as table1_industry_code,
+    industry_code_ANZSIC06 as table1_industry_code,
     industry_name_ANZSIC as table1_industry_name,
     rme_size_grp as table1_rme_size_grp,
     variable as table1_variable,
