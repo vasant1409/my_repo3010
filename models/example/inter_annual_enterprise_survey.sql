@@ -3,8 +3,8 @@ With
 
 inter_survey as (
 SELECT
-     {{ dbt_utils.star(from=ref('stg_annual_enterprise_survey01') }},
-     {{ dbt_utils.star(from=ref('stg_annual_enterprise_survey02') }}
+     {{ dbt_utils.star(from=ref('stg_annual_enterprise_survey01')) }},
+     {{ dbt_utils.star(from=ref('stg_annual_enterprise_survey02')) }}
 FROM
      {{ ref('stg_annual_enterprise_survey02') }} AS t2
 JOIN
