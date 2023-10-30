@@ -8,10 +8,9 @@ SELECT
     year as table1_year,
     industry_code_ANZSIC06 as table1_industry_code,
     industry_name_NZSIOC as table1_industry_name,
-    rme_size_grp as table1_rme_size_grp,
-    variable as table1_variable,
+    variable_code as table1_variable,
     value as table1_value,
-    unit as table1_unit,
+    units as table1_unit,
     serial_number  as table1_serial_number,
     serial_number_1  as table1_serial_number_1,
 FROM survey
