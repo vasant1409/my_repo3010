@@ -10,7 +10,7 @@ FROM
 JOIN
      {{ ref('stg_annual_enterprise_survey01') }} AS t1
 ON
-    t2.table1_id = t1.table2_id
+    t2.table2_id = t1.table1_id
 WHERE
     t1.table1_year=2013
 GROUP BY
